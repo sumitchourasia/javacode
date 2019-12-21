@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.xml.internal.stream.Entity.ScannedEntity"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.sound.midi.Patch"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
+    <fullyQualifiedTypeName name="com.bridgelab.utility.InputScanner"/>
+    <fullyQualifiedTypeName name="jdk.internal.jline.internal.TestAccessible"/>
+    <fullyQualifiedTypeName name="com.blz.calci.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="main.java.utility.InputScanner"/>
+    <fullyQualifiedTypeName name="basictest.HarmonicTest"/>
+    <fullyQualifiedTypeName name="main.java.basic.PowerOfTwo"/>
+    <fullyQualifiedTypeName name="main.java.basic.FlipCoin"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="main.java.basic.LeapYear"/>
+    <fullyQualifiedTypeName name="main.java.basic.HarmonicNumber"/>
+    <fullyQualifiedTypeName name="main.java.basic.ReplaceStringTemplate"/>
+    <fullyQualifiedTypeName name="main.java.basic.PrimeFactors"/>
+    <fullyQualifiedTypeName name="main.java.basic.Dice"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="main.java.functional.EuclideanDistance"/>
+    <fullyQualifiedTypeName name="main.test.functionaltest.QuadrarticRootsTest"/>
+    <fullyQualifiedTypeName name="main.java.functional.QuadrarticRoots"/>
+    <fullyQualifiedTypeName name="divideandConquer.MaxMin"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
