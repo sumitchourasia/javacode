@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Utility {
+	
+	static Scanner sc=new Scanner(System.in);
+	
+	public static int readInt()
+	{
+		int input=sc.nextInt();
+		return input;
+	}
+	
+	public static String readString()
+	{
+		String input=sc.next();
+		return input;
+	}
+	
+	public static double readDouble()
+	{
+		double input=sc.nextDouble();
+		return input;
+	}
+	
+	public static void closeScanner()
+	{
+		sc.close();
+	}
+	
+	
+	
+	
+	
+	
+	
+}

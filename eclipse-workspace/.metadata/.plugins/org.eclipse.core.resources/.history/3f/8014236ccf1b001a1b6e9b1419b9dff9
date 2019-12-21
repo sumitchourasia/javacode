@@ -1,0 +1,17 @@
+package com.bridgelab.functional;
+
+import com.bridgelab.utility.Utility;
+
+public class WindChills {
+
+	public static void main(String[] args) {
+		System.out.println("enter t and v values : ");
+		double t=Utility.readDouble();
+		double v=Utility.readDouble();
+		
+		double windchills=calWindChills(t,v);
+		
+		
+	}
+
+}

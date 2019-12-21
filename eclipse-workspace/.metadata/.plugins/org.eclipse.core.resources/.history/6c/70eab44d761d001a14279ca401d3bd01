@@ -1,0 +1,30 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+
+public class MonthlyPayment {
+
+	public static void calculateMonthlyPayment(int p , int y , int r)
+	{
+		int n=0;
+		n=12*y;
+		r=r/12*100;
+		
+		double mp= ( p*r )/(1-Math.pow((1+r), (-n)));
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("enter the principle amount : ");
+		int principle=Utility.readInt();
+		System.out.println("enter the years : ");
+		int years=Utility.readInt();
+		System.out.println("enter the rate of interest : ");
+		int rate=Utility.readInt();
+		
+		calculateMonthlyPayment(principle,years,rate);
+		
+	}
+
+}

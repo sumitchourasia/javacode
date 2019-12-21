@@ -1,0 +1,12 @@
+package com.bridgelab.functional;
+
+public class WindChills {
+
+	public static void main(String[] args) {
+		System.out.println("enter t and v values : ");
+		
+		
+		
+	}
+
+}

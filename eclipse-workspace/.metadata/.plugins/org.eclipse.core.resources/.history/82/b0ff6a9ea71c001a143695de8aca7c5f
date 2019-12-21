@@ -1,0 +1,20 @@
+package com.bridgelab.algorithm;
+
+import java.io.*;
+import com.bridgelab.utility.Utility;
+
+public class BinarySearchWords {
+	
+	public static void main(String[] args) throws IOException {
+		System.out.print("enter the file name : ");
+		String file=
+		FileReader fr=new FileReader("newfile.txt");
+		
+		
+		Utility.closeScanner();
+		pw.close();
+		
+		
+	}
+
+}

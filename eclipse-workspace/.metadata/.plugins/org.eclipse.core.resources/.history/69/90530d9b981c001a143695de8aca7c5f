@@ -1,0 +1,14 @@
+package com.bridgelab.basic;
+
+import com.bridgelab.utility.Utility;
+
+public class ReplaceStringTemplate {
+
+	public static void main(String[] args) {
+		
+		System.out.print("enter your name : ");
+		String name= Utility.readString();
+		System.out.println(Utility.replaceUserName(name));
+		
+	}
+}

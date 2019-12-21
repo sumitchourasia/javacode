@@ -1,0 +1,53 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+
+public class VendingMachine {
+
+	public static int getChange(int amount) {
+		
+		int notes=0;
+		int totalnotes=0;
+		int div=1000;
+		
+		while(amount>0)
+		{
+			notes=amount%div;
+			amount=amount/div;
+			totalnotes +=notes;
+			div=div/2;
+			
+			System.out.println("div rupees notes are : "+notes );
+			if(div==50)
+			{
+				div=10;
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return 90;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println("ENTER THE AMOUNT : ");
+		int amount=Utility.readInt();
+		
+		getChange(amount);
+		
+			
+		
+	}
+
+}

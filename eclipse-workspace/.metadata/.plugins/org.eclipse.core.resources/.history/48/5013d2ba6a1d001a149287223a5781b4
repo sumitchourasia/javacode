@@ -1,0 +1,31 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+/*
+Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
+Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
+*/
+
+
+public class TemperatureConversion {
+
+	public static void temperaturConversion(int choice)
+	{
+		
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Select the conversion type : ");
+		System.out.println("1 for celcius to farhenheit ");
+		System.out.println("2 for farhenheit to celcius ");
+		
+		int choice=Utility.readInt();
+
+		temperatureConversion(choice);
+		
+	}
+
+}

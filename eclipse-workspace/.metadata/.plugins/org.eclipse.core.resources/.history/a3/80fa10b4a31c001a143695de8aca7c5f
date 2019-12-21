@@ -1,0 +1,28 @@
+package com.bridgelab.algorithm;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import com.bridgelab.utility.Utility;
+
+public class BinarySearchWords {
+
+	public static void main(String[] args) throws IOException {
+		
+		PrintWriter pw=new PrintWriter("wordlist2.txt");
+		String s="";
+		System.out.println("enter the word to write in file : ");
+		
+			s=Utility.readString();
+			
+			pw.println(s);
+			pw.flush();
+			
+		
+		Utility.closeScanner();
+		pw.close();
+		
+		
+	}
+
+}

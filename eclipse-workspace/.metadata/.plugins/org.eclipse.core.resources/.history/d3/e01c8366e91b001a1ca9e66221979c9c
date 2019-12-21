@@ -1,0 +1,47 @@
+package com.bridgelab.logical;
+
+import com.bridgelab.utility.Utility;
+
+public class TicTacToeGame {
+
+	
+	public static void main(String[] args) {
+		
+			int[][] array=new int[3][3];
+			int count=0;
+			System.out.println("game started !!! ");
+			while(count<9)
+			{
+				System.out.println("user turn : ");
+				Utility.userTurn(array);
+				count++;
+				Utility.print2DArray(array);
+				Utility.checkStatus(array);
+				System.out.println("computer turn :");
+				Utility.computerTurn(array);
+				count++;
+				Utility.print2DArray(array);
+				Utility.checkStatus(array);
+			}
+			System.out.println("draw!!!");
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

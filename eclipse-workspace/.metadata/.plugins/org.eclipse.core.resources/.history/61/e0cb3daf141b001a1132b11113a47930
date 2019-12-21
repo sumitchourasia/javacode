@@ -1,0 +1,27 @@
+package com.bridgelab.basic;
+
+import com.bridgelab.utility.Utility;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		System.out.println("enter the year : ");
+		int year=Utility.readInt();
+		
+		if(year<1000)
+		{
+			System.out.println("year should be of four digits ");
+			return;
+		}
+		
+		if(Utility.isLeapYear(year))
+		{
+			System.out.println("year is a leap year ");
+		}
+		else
+		{
+			System.out.println("year is not a leap year ");
+		}
+	}
+
+}

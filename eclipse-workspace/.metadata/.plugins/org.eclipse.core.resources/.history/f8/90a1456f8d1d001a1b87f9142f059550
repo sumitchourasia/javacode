@@ -1,0 +1,20 @@
+package com.bridgelab.basic;
+
+import com.bridgelab.utility.Utility;
+
+public class HarmonicNumber {
+
+	public static void main(String[] args) {
+		System.out.println("enter the number for harmonic progression");
+		int n = Utility.readInt();
+		if(n==0)
+		{
+			System.out.println("cannot be zero ");
+			return;
+		}
+		double hp = Utility.getHarmonicProgression(n);
+		System.out.println("hamonic progression is : "+hp);
+		
+	}
+
+}

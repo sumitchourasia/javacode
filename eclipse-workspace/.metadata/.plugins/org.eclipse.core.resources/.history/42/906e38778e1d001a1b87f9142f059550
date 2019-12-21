@@ -1,0 +1,29 @@
+package com.bridgelab.basic;
+
+import com.bridgelab.utility.Utility;
+
+public class PowerOfTwo {
+
+	public static int getPowerOfTwo(int n)
+	{
+		int pow=1;
+		if(n==0)
+			return 1;
+		for(int i=0;i<n;i++)
+		{
+			
+			pow=pow*2;
+			System.out.println(pow);
+		}
+		return pow;
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("enter the n for finding power");
+		int n=Utility.readInt();
+		Utility.getPowerOfTwo(n);
+		
+	}
+
+}

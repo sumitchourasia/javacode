@@ -1,0 +1,37 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+
+public class DayOfWeek {
+
+	public static int calculateDayOfWeek(int d,int m,int y)
+	{
+		int d0=0;
+		int m0=0;
+		int y0=0;
+		
+		
+		
+		return 0;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.print("enter the date : ");
+		int date=Utility.readInt();
+		System.out.println("enter the month : ");
+		int month=Utility.readInt();
+		System.out.println("enter the year : ");
+		int year=Utility.readInt();
+		
+		calculateDayOfWeek(date,month,year);
+		
+		
+		
+		
+	}
+
+}

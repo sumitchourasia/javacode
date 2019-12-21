@@ -1,0 +1,20 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+
+public class VendingMachine {
+
+	
+	public static void main(String[] args) {
+		System.out.println("ENTER THE AMOUNT : ");
+		int amount=Utility.readInt();
+		
+		Utility.vendingMachine(amount);
+		
+		Utility.closeScanner();
+		
+			
+		
+	}
+
+}

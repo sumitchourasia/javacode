@@ -1,0 +1,18 @@
+package com.bridgelab.logical;
+
+import com.bridgelab.utility.Utility;
+
+public class CouponNumber {
+
+	public static void main(String[] args) {
+		System.out.println("enter the number coupon : ");
+		int length = Utility.readInt();
+		int[] arr=new int[length];
+		System.out.println("enter the coupon number ");
+		Utility.enterDistinctArrayInt(arr);
+		
+		
+		
+	}
+
+}

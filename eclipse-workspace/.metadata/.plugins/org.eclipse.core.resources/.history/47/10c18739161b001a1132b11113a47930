@@ -1,0 +1,13 @@
+package com.bridgelab.basic;
+
+public class ReplaceStringTemplate {
+
+	public static void main(String[] args) {
+		String template="Hello <<Username>>,how are you?"
+		System.out.print("enter your name : ");
+		
+		
+		
+	}
+
+}

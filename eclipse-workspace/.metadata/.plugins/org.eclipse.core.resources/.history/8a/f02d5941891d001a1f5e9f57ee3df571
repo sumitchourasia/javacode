@@ -1,0 +1,15 @@
+
+public class Replace {
+
+	public static void main(String[] args) {
+		
+		String template="hello <<UserName>>,how are you");
+		System.out.println("Enter the name : ");
+		String name=Utility.readInt();
+		
+		
+		
+		
+	}
+
+}

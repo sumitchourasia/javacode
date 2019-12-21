@@ -1,0 +1,24 @@
+package com.bridgelab.junit;
+
+import com.bridgelab.utility.Utility;
+
+/*
+initialize t = c
+- replace t with the average of c/t and t
+- repeat until desired accuracy reached using condition Math.abs(t - c/t) > epsilon*t where epsilon = 1e-15;
+*/
+
+
+public class SqrtNewtonMethod {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("enter the number : ");
+		int n=Utility.readInt();
+		
+		Utility.calculateNewtonSqrt(n);
+		
+		Utility.closeScanner();
+	}
+
+}

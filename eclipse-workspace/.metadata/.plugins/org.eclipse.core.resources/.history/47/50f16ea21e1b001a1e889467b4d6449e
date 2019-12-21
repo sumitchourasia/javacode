@@ -1,0 +1,22 @@
+package com.bridgelab.basic;
+
+import com.bridgelab.utility.Utility;
+
+public class FlipCoin {
+
+	public static void main(String[] args) {
+		System.out.print("enter the number of times to flip the coin : ");
+		int n=Utility.readInt();
+		if(n<=0)
+		{
+			System.out.println("invalid data");
+			return;
+		}
+		method for percentage of heads
+		double headperc = Utility.percentageOfHead(n);
+		
+		double tailperc = 100.0-headperc;
+		System.out.println("Heads percentage is : "+headperc+" \n tail percentage is : "+tailperc);
+	}
+
+}

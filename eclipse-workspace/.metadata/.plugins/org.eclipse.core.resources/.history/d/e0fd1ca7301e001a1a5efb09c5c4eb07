@@ -1,0 +1,68 @@
+package com.bridgelab.functional;
+
+import com.bridgelab.utility.Utility;
+
+public class TwoDArray {
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println("enter the length and breadth of array : ");
+		int i=Utility.readInt();
+		int j=Utility.readInt();
+		
+		System.out.println("enter the data : ");
+		String data=Utility.readString();
+		
+		
+	}
+
+
+
+public static int parseString(String data)
+{
+	try {
+		int integerdata=Integer.parseInt(data);
+		return 1;
+	}
+	catch(NumberFormatException e) 
+	{
+		try 
+		{
+			double doubledata=Double.parseDouble(data);
+			return 2;
+		}
+		catch(NumberFormatException f ) 
+		{
+			try 
+			{
+				Boolean booleandata=Boolean.parseBoolean(data);
+				return 3;
+			}
+			catch(NumberFormatException n)
+			 {
+				System.out.println("string "+data);
+				System.out.println("enter any one of integer double or boolean");
+				return 0;
+			 }
+		}
+	 }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

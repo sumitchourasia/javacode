@@ -1,0 +1,30 @@
+package com.bridgelab.functional;
+
+import com.bridgelab.utility.Utility;
+
+public class TwoDArray {
+
+	public static void main(String[] args) {
+		System.out.println("enter the length and breadth of array : ");
+		String input=Utility.readString();
+		
+		
+		
+		
+	}
+
+
+
+public static void parseString(String data)
+{
+	try {
+		int integer=Integer.parseInt(data);
+		System.out.println(" ");
+	}
+	
+	
+}
+	
+	
+	
+}

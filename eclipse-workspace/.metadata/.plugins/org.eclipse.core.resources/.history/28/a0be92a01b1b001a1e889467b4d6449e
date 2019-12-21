@@ -1,0 +1,18 @@
+package com.bridgelab.basic;
+
+import java.util.Random;
+
+import com.bridgelab.utility.Utility;
+
+public class FlipCoin {
+
+	public static void main(String[] args) {
+		System.out.print("enter the number of times to flip the coin : ");
+		int n=Utility.readInt();
+		
+		Random rd=new Random();
+		double random=rd.nextDouble();
+		
+	}
+
+}
